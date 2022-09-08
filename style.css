@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* navigation bar */
+.navigation::before{
+    content: "";
+    background: url("https://cdn.pixabay.com/photo/2016/02/10/13/39/expectrum-1191724_960_720.png") top no-repeat ;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+.navbar {
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav_ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 85px;
+
+}
+
+.nav_ul li a {
+
+    color: black;
+    text-decoration: none;
+    padding: 6px 20px;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.nav_ul li a:hover {
+    background-color: rgb(100, 124, 173);
+    border-radius: ;
+    /* font-weight: bold; */
+    color: white;
+}
+
+/* Logo image */
+.nav_logo img {
+    height: 10vh;
+    margin-right: 3rem;
+    display: inline;
+}
+
+/* search option */
+.nav_search {
+    display: flex;
+    height: 4.6em;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_search input {
+    width: 19rem;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+
+/* men's Section  */
+ .heading_center{
+    text-align: center;
+}
+.section_container{
+    margin: 65px 50px;
+text-align: center;
+}
+.menf_img img {
+    width: 15rem;
+    height: 15rem;
+    margin: 20px;
+    border-radius: 5px;
+}
+.section_men{
+    display: flex;
+    justify-content: space-evenly;
+}
+ .section_men .pere{
+    text-align: center;
+}
+.box_shadow{
+    background-color: white;
+    box-shadow: 2px 2px 3px grey;
+}
+/* women section */
+.women_section img {
+    width: 15rem;
+    height: 15rem;
+    margin: 20px;
+    border-radius: 5px;
+}
+.pera{
+    font-size: 1rem;
+}
+.section_women{
+    display: flex;
+    justify-content: space-evenly;
+}
+ .section_women .pera{
+    text-align: center;
+
+}
+.women_section_container > h1{
+    margin: 20px 0px;
+}
